@@ -1,0 +1,2 @@
+#! /bin/sh
+gcc -Wall -Wextra -Werror -o get_status main.c printercom.c error.c parser.c -lusb-1.0
