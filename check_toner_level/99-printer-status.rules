@@ -1,0 +1,1 @@
+ACTION=="add", SUBSYSTEM=="usb", ATTRS{idVendor}=="04f9", ATTRS{idProduct}=="<USB_PRODUCT_ID>", RUN+="/usr/bin/su <YOURUSERNAME> -c '/usr/local/bin/printer_check_toner.sh'"

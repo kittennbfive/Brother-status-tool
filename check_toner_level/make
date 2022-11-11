@@ -1,0 +1,2 @@
+#! /bin/sh
+gcc -Wall -Wextra -Werror -I/usr/include/glib-2.0 -I/usr/lib/x86_64-linux-gnu/glib-2.0/include -I/usr/include/gdk-pixbuf-2.0/ -o printer_check_toner main.c error.c printercom.c parser.c notification.c -lusb-1.0 -lnotify
