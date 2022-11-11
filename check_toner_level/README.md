@@ -34,7 +34,7 @@ You will need superuser-privileges.
 #### The udev-stuff
 Adjust `99-printer-status.rules`:
 * Replace <USB_PRODUCT_ID> with the correct ProductId *without* "0x".
-* Replace <YOURUSERNAME> with your user name. This `su`-stuff is a bit of an ugly hack (or is it?) that is needed because by default the tool would run as root and this will prevent the notifications from showing up. If anybody knows a better way please share.  
+* Replace \<YOURUSERNAME> with your user name. This `su`-stuff is a bit of an ugly hack (or is it?) that is needed because by default the tool would run as root and this will prevent the notifications from showing up. If anybody knows a better way please share.  
 
 `udev` should automatically "discover" and parse the new file.
 #### The other stuff
